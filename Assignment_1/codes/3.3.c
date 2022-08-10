@@ -29,4 +29,16 @@ int main()
         printf("%f, ",y[i]);
     }
 
+    FILE *x_val,*y_val;
+    x_val=fopen("3.3x.txt","w");
+    y_val=fopen("3.3y.txt","w");
+    for(int i=0; i<6; i++){
+        fprintf(x_val,"%f ", x[i]);
+    }
+    for(int i=0; i<20; i++){
+        fprintf(y_val,"%f ", y[i]);
+    }
+    fclose(x_val);
+    fclose(y_val);
+
 }
