@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  17 AUG 2022 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  17 AUG 2022 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,14 +861,14 @@ LaTeX Warning: Reference `eq:z_trans_shift' on page 5 undefined on input line 52
 LaTeX Warning: Reference `fig:hn' on page 5 undefined on input line 531.
 
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:537: LaTeX Error: File `./figs/hn' not found.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:537: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537 ...degraphics[width=\columnwidth]{./figs/hn}
-                                                  
+l.537 \includegraphics[width=\columnwidth]{}
+                                            
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
 Try typing  <return>  to proceed.
@@ -982,10 +982,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
  ) 
 Here is how much of TeX's memory you used:
- 13291 strings out of 481239
- 199459 string characters out of 5920377
+ 13290 strings out of 481239
+ 199541 string characters out of 5920377
  854619 words of memory out of 5000000
- 28002 multiletter control sequences out of 15000+600000
+ 28001 multiletter control sequences out of 15000+600000
  604230 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,9n,53p,347b,2087s stack positions out of 5000i,500n,10000p,200000b,80000s

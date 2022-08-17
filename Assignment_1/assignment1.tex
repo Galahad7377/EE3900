@@ -364,7 +364,7 @@ Sketch $y(n)$.
 \includegraphics[width=\columnwidth]{figs/3.3.png}
 \end{center}
 \captionof{figure}{}
-\label{fig:xnyn}	
+\label{fig:xny}	
 \end{figure}
 \end{enumerate}
 \section{$Z$-transform}
@@ -498,6 +498,11 @@ known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
 $\abs{H\brak{e^{\j\omega}}}$ is periodic with a period of 2$\pi$.
 \\
 \item Express $h(n)$ in terms of $H\brak{e^{\j \omega}}$.
+
+\solution
+From the inverse Fourier transform it is clear that,
+
+\[  h(n) =  \int_{-\pi}^{\pi} H(e^{\j\omega})e^{\j\omega n} \,d\omega \]
 \end{enumerate}
 
 \section{Impulse Response}
@@ -534,7 +539,7 @@ wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/hn.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/hn}
+\includegraphics[width=\columnwidth]{}
 \caption{$h(n)$ as the inverse of $H(z)$}
 \label{fig:hn}
 \end{figure}
