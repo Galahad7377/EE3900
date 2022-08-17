@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  17 AUG 2022 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  17 AUG 2022 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,27 +817,183 @@ LaTeX Warning: Command \j invalid in math mode on input line 487.
 
 LaTeX Warning: Reference `fig:dtft' on page 4 undefined on input line 490.
 
+(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/4.6.py)
+<figs/4.6.png, id=212, 462.528pt x 336.0555pt>
+File: figs/4.6.png Graphic file (type png)
+<use figs/4.6.png>
+Package pdftex.def Info: figs/4.6.png  used on input line 494.
+(pdftex.def)             Requested size: 252.0pt x 183.0979pt.
 
-! Package Listings Error: File `codes/4.6(.py)' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: py)
+LaTeX Warning: Command \j invalid in math mode on input line 495.
 
-Enter file name: 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:491: Emergency stop.
-<read *> 
-         
-l.491 ...putlisting[language=Python]{codes/4.6.py}
-                                                  ^^M
-*** (cannot \read from terminal in nonstop modes)
 
- 
+LaTeX Warning: Command \j invalid in math mode on input line 495.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 498.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--500
+
+ []
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 500.
+
+
+LaTeX Warning: Reference `eq:freq_resp' on page 4 undefined on input line 511.
+
+[4]
+
+LaTeX Warning: Reference `eq:iir_filter' on page 5 undefined on input line 520.
+
+
+LaTeX Warning: Reference `eq:freq_resp' on page 5 undefined on input line 522.
+
+
+LaTeX Warning: Reference `eq:anun' on page 5 undefined on input line 528.
+
+
+LaTeX Warning: Reference `eq:z_trans_shift' on page 5 undefined on input line 528.
+
+
+LaTeX Warning: Reference `fig:hn' on page 5 undefined on input line 531.
+
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:537: LaTeX Error: File `./figs/hn' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 ...degraphics[width=\columnwidth]{./figs/hn}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq:iir_filter' on page 5 undefined on input line 547.
+
+
+LaTeX Warning: Reference `eq:impulse_resp' on page 5 undefined on input line 547.
+
+
+LaTeX Warning: Reference `fig:hndef' on page 5 undefined on input line 559.
+
+
+LaTeX Warning: Reference `fig:hn' on page 5 undefined on input line 560.
+
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:567: LaTeX Error: File `./figs/hndef' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.567 ...raphics[width=\columnwidth]{./figs/hndef}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq:convolution' on page 5 undefined on input line 579.
+
+
+LaTeX Warning: Reference `fig:ynconv' on page 5 undefined on input line 583.
+
+
+LaTeX Warning: Reference `fig:xnyn' on page 5 undefined on input line 585.
+
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:592: LaTeX Error: File `./figs/ynconv' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.592 ...aphics[width=\columnwidth]{./figs/ynconv}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 610.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 619.
+
+
+LaTeX Warning: Reference `fig:ynconv' on page 5 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig:xnyn' on page 5 undefined on input line 624.
+
+[5 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png>]
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:631: LaTeX Error: File `./figs/yndft' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.631 ...raphics[width=\columnwidth]{./figs/yndft}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `prob:output' on page 6 undefined on input line 644.
+
+
+LaTeX Warning: Reference `prob:output' on page 6 undefined on input line 651.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 677.
+[6
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 677.
+ (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 677.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 677.
+
+
+Package rerunfilecheck Warning: File `assignment1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `assignment1.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2154E13812F1013637C6C87519C101FD;346.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
+ ) 
 Here is how much of TeX's memory you used:
- 13035 strings out of 481239
- 195981 string characters out of 5920377
+ 13291 strings out of 481239
+ 199459 string characters out of 5920377
  854619 words of memory out of 5000000
- 27869 multiletter control sequences out of 15000+600000
+ 28002 multiletter control sequences out of 15000+600000
  604230 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,9n,53p,339b,2087s stack positions out of 5000i,500n,10000p,200000b,80000s
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:491:  ==> Fatal error occurred, no output PDF file produced!
+ 41i,9n,53p,347b,2087s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.pdf" (6 pages, 170709 bytes).
+PDF statistics:
+ 424 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
