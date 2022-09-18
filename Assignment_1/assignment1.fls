@@ -140,6 +140,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polynom/polynom.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polynom/polynom.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -368,6 +370,27 @@ INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and m
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.out
 INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.out
