@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  18 SEP 2022 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  22 SEP 2022 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex"
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex
+**"/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex"
+(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -509,7 +509,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count303
 \l__pdf_internal_box=\box56
-) (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux)
+) (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux)
 \openout1 = `assignment1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
@@ -726,213 +726,221 @@ Underfull \hbox (badness 6927) in paragraph at lines 318--321
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The key strokes as well as
  []
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 333.
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.1.py [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-])
-<figs/3.1.png, id=71, 462.528pt x 346.896pt>
+]
+<figs/3.1.png, id=70, 462.528pt x 346.896pt>
 File: figs/3.1.png Graphic file (type png)
 <use figs/3.1.png>
-Package pdftex.def Info: figs/3.1.png  used on input line 336.
+Package pdftex.def Info: figs/3.1.png  used on input line 338.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 
-LaTeX Warning: Reference `fig:xnyn' on page 2 undefined on input line 350.
+LaTeX Warning: Reference `fig:xnyn' on page 2 undefined on input line 352.
 
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.2.py
-LaTeX Font Info:    Trying to load font information for OML+txr on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
-File: omltxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 15.
-)
-<figs/3.2.png, id=73, 462.528pt x 346.896pt>
+<figs/3.2.png, id=72, 462.528pt x 346.896pt>
 File: figs/3.2.png Graphic file (type png)
 <use figs/3.2.png>
-Package pdftex.def Info: figs/3.2.png  used on input line 354.
+Package pdftex.def Info: figs/3.2.png  used on input line 358.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.c
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 4.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 4.
- [2 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.1.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.2.png>]) (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.py)
-<figs/3.3.png, id=142, 462.528pt x 346.896pt>
+<figs/3.3.png, id=73, 462.528pt x 346.896pt>
 File: figs/3.3.png Graphic file (type png)
 <use figs/3.3.png>
-Package pdftex.def Info: figs/3.3.png  used on input line 365.
+Package pdftex.def Info: figs/3.3.png  used on input line 373.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 379.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 371.
+(hyperref)                removing `math shift' on input line 379.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 371.
+LaTeX Warning: Reference `eq:z_trans' on page 2 undefined on input line 397.
 
 
-LaTeX Warning: Reference `eq:z_trans' on page 3 undefined on input line 389.
+LaTeX Warning: Reference `eq:shift1' on page 2 undefined on input line 403.
 
 
-LaTeX Warning: Reference `eq:shift1' on page 3 undefined on input line 395.
+LaTeX Warning: Reference `def:xn' on page 2 undefined on input line 410.
+
+[2 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.1.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.2.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.3.png>]
+
+LaTeX Warning: Reference `eq:iir_filter' on page 3 undefined on input line 424.
 
 
-LaTeX Warning: Reference `def:xn' on page 3 undefined on input line 402.
-
-[3 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.3.png>]
-
-LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 416.
+LaTeX Warning: Reference `eq:z_trans_shift' on page 3 undefined on input line 426.
 
 
-LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 418.
+LaTeX Warning: Reference `eq:iir_filter' on page 3 undefined on input line 426.
 
 
-LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 418.
-
-
-LaTeX Warning: Reference `eq:unit_step' on page 4 undefined on input line 455.
+LaTeX Warning: Reference `eq:unit_step' on page 3 undefined on input line 463.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 486.
+LaTeX Warning: Command \j invalid in math mode on input line 494.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 486.
+LaTeX Warning: Command \j invalid in math mode on input line 494.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 488.
+LaTeX Warning: Command \j invalid in math mode on input line 496.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 488.
+LaTeX Warning: Command \j invalid in math mode on input line 496.
 
 
-LaTeX Warning: Reference `fig:dtft' on page 4 undefined on input line 491.
+LaTeX Warning: Reference `fig:dtft' on page 3 undefined on input line 499.
 
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/4.6.py)
-<figs/4.6.png, id=212, 462.528pt x 336.0555pt>
+<figs/4.6.png, id=101, 462.528pt x 336.0555pt>
 File: figs/4.6.png Graphic file (type png)
 <use figs/4.6.png>
-Package pdftex.def Info: figs/4.6.png  used on input line 495.
+Package pdftex.def Info: figs/4.6.png  used on input line 505.
 (pdftex.def)             Requested size: 252.0pt x 183.0979pt.
 
-
-LaTeX Warning: Command \j invalid in math mode on input line 496.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 496.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 499.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--501
-
- []
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 501.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 505.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 505.
+LaTeX Warning: Command \j invalid in math mode on input line 506.
 
 
 LaTeX Warning: Command \j invalid in math mode on input line 506.
 
 
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [4]
-
-LaTeX Warning: Reference `eq:freq_resp' on page 5 undefined on input line 518.
+LaTeX Warning: Command \j invalid in math mode on input line 509.
 
 
-LaTeX Warning: Reference `eq:iir_filter' on page 5 undefined on input line 534.
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+
+ []
 
 
-LaTeX Warning: Reference `eq:freq_resp' on page 5 undefined on input line 536.
+LaTeX Warning: Command \j invalid in math mode on input line 511.
 
 
-LaTeX Warning: Reference `eq:anun' on page 5 undefined on input line 542.
+LaTeX Warning: Command \j invalid in math mode on input line 515.
 
 
-LaTeX Warning: Reference `eq:z_trans_shift' on page 5 undefined on input line 542.
+LaTeX Warning: Command \j invalid in math mode on input line 515.
 
 
-LaTeX Warning: Reference `fig:hn' on page 5 undefined on input line 545.
+LaTeX Warning: Command \j invalid in math mode on input line 516.
 
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py)
-<figs/5.3.png, id=268, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [3 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/4.6.png>]
+
+LaTeX Warning: Reference `eq:freq_resp' on page 4 undefined on input line 528.
+
+
+LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 544.
+
+
+LaTeX Warning: Reference `eq:freq_resp' on page 4 undefined on input line 546.
+
+
+LaTeX Warning: Reference `eq:anun' on page 4 undefined on input line 552.
+
+
+LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 552.
+
+
+LaTeX Warning: Reference `fig:hn' on page 4 undefined on input line 555.
+
+<figs/5.3.png, id=135, 462.528pt x 346.896pt>
 File: figs/5.3.png Graphic file (type png)
 <use figs/5.3.png>
-Package pdftex.def Info: figs/5.3.png  used on input line 549.
+Package pdftex.def Info: figs/5.3.png  used on input line 561.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
- [5 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png>]
 
-LaTeX Warning: Reference `eq:iir_filter' on page 6 undefined on input line 569.
-
-
-LaTeX Warning: Reference `eq:impulse_resp' on page 6 undefined on input line 569.
-
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
-Underfull \vbox (badness 5847) has occurred while \output is active []
-
-)
-
-LaTeX Warning: Reference `fig:hndef' on page 6 undefined on input line 590.
+LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 581.
 
 
-LaTeX Warning: Reference `fig:hn' on page 6 undefined on input line 591.
+LaTeX Warning: Reference `eq:impulse_resp' on page 4 undefined on input line 581.
 
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py)
-<figs/5.7.png, id=302, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+ [4 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.3.png>]
+
+LaTeX Warning: Reference `fig:hndef' on page 5 undefined on input line 604.
+
+
+LaTeX Warning: Reference `fig:hn' on page 5 undefined on input line 605.
+
+<figs/5.7.png, id=155, 462.528pt x 346.896pt>
 File: figs/5.7.png Graphic file (type png)
 <use figs/5.7.png>
-Package pdftex.def Info: figs/5.7.png  used on input line 596.
+Package pdftex.def Info: figs/5.7.png  used on input line 612.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-
-LaTeX Warning: Reference `eq:convolution' on page 6 undefined on input line 608.
-
-
-LaTeX Warning: Reference `fig:ynconv' on page 6 undefined on input line 612.
+LaTeX Warning: Reference `eq:convolution' on page 5 undefined on input line 624.
 
 
-LaTeX Warning: Reference `fig:xnyn' on page 6 undefined on input line 614.
+LaTeX Warning: Reference `fig:ynconv' on page 5 undefined on input line 628.
 
-(/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py [6])
-<figs/5.8.png, id=360, 462.528pt x 346.896pt>
+
+LaTeX Warning: Reference `fig:xnyn' on page 5 undefined on input line 630.
+
+<figs/5.8.png, id=156, 462.528pt x 346.896pt>
 File: figs/5.8.png Graphic file (type png)
 <use figs/5.8.png>
-Package pdftex.def Info: figs/5.8.png  used on input line 619.
+Package pdftex.def Info: figs/5.8.png  used on input line 637.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:633: Missing $ inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:645: Missing $ inserted.
 <inserted text> 
                 $
-l.633 T = \begin{pmatrix}
+l.645 x=\begin{bmatrix}
+                       1\\2\\3\\4\\2\\1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:646: Missing $ inserted.
+<inserted text> 
+                $
+l.646 \end{bmatrix}
+                   \quad
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:647: Missing $ inserted.
+<inserted text> 
+                $
+l.647  h=\begin{bmatrix}
+                        1\\-0.5\\1.25\\-0.625\\0.315\\0.15625
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:648: Missing $ inserted.
+<inserted text> 
+                $
+l.648     \end{bmatrix}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:649: Missing $ inserted.
+<inserted text> 
+                $
+l.649 T = \begin{bmatrix}
                          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:644: Missing $ inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:660: Missing $ inserted.
 <inserted text> 
                 $
-l.644     \end{pmatrix}
+l.660     \end{bmatrix}
                        \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -941,22 +949,32 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.24237pt too wide) in paragraph at lines 632--646
-\OT1/txr/m/n/12 T = $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 643--662
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Let x(n) and h(n)
  []
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:647: Missing $ inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--662
+\OT1/txr/m/n/12 be rep-re-sented by the fol-low-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--662
+\OT1/txr/m/n/12 ma-tri-ces. x=$[]$ h=$[]$ T =
+ []
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:663: Missing $ inserted.
 <inserted text> 
                 $
-l.647 y=\begin{pmatrix}
+l.663 y=\begin{bmatrix}
                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:649: Missing $ inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:665: Missing $ inserted.
 <inserted text> 
                 $
-l.649     \end{pmatrix}
+l.665     \end{bmatrix}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -967,45 +985,363 @@ my insertion and my current dilemma will both disappear.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png>]
+ [5 </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.7.png> </media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.8.png>]
 
-LaTeX Warning: Command \j invalid in math mode on input line 669.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 678.
+LaTeX Warning: Command \j invalid in math mode on input line 685.
 
 
-LaTeX Warning: Reference `fig:ynconv' on page 8 undefined on input line 681.
+LaTeX Warning: Command \j invalid in math mode on input line 694.
 
 
-LaTeX Warning: Reference `fig:xnyn' on page 8 undefined on input line 683.
+LaTeX Warning: Reference `fig:ynconv' on page 6 undefined on input line 697.
 
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex:690: LaTeX Error: File `./figs/yndft' not found.
+LaTeX Warning: Reference `fig:xnyn' on page 6 undefined on input line 699.
+
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:706: LaTeX Error: File `./figs/yndft' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.690 ...raphics[width=\columnwidth]{./figs/yndft}
+l.706 ...raphics[width=\columnwidth]{./figs/yndft}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Undefined control sequence.
+<argument>  \vec {I}_4 = \myvec 
+                                {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
+l.737 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 703.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Missing } inserted.
+<inserted text> 
+                }
+l.737 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Missing { inserted.
+<inserted text> 
+                {
+l.737 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Undefined control sequence.
+<argument>  \vec {I}_4 = \myvec 
+                                {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
+l.737 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Missing } inserted.
+<inserted text> 
+                }
+l.737 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.737 	\end{align}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.737 	\end{align}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:737: Missing { inserted.
+<inserted text> 
+                {
+l.737 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Undefined control sequence.
+<argument>  \vec {P}_4 = \myvec 
+                                {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
+l.741 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Missing } inserted.
+<inserted text> 
+                }
+l.741 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Missing { inserted.
+<inserted text> 
+                {
+l.741 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Undefined control sequence.
+<argument>  \vec {P}_4 = \myvec 
+                                {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
+l.741 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Missing } inserted.
+<inserted text> 
+                }
+l.741 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.741 	\end{align}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.741 	\end{align}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:741: Missing { inserted.
+<inserted text> 
+                {
+l.741 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Undefined control sequence.
+<argument>  \vec {D}_4 = diag\myvec 
+                                    {W_{4}^{0} & W_{N}^{1} & W_{N}^{2} & W_{...
+l.745 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Missing } inserted.
+<inserted text> 
+                }
+l.745 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Missing { inserted.
+<inserted text> 
+                {
+l.745 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Undefined control sequence.
+<argument>  \vec {D}_4 = diag\myvec 
+                                    {W_{4}^{0} & W_{N}^{1} & W_{N}^{2} & W_{...
+l.745 	\end{align}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Missing } inserted.
+<inserted text> 
+                }
+l.745 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.745 	\end{align}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.745 	\end{align}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:745: Missing { inserted.
+<inserted text> 
+                {
+l.745 	\end{align}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 710.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Undefined control sequence.
+<argument>  \vec {x} = \myvec 
+                              {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
+l.1048     \end{align}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 736.
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 736.
- (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 736.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 736.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Missing } inserted.
+<inserted text> 
+                }
+l.1048     \end{align}
+                      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Missing { inserted.
+<inserted text> 
+                {
+l.1048     \end{align}
+                      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Undefined control sequence.
+<argument>  \vec {x} = \myvec 
+                              {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
+l.1048     \end{align}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Missing } inserted.
+<inserted text> 
+                }
+l.1048     \end{align}
+                      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.1048     \end{align}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.1048     \end{align}
+                      
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex:1048: Missing { inserted.
+<inserted text> 
+                {
+l.1048     \end{align}
+                      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+LaTeX Warning: Reference `eq:dft-mat-def' on page 7 undefined on input line 1051.
+
+
+LaTeX Warning: Reference `prob:output' on page 7 undefined on input line 1058.
+
+
+LaTeX Warning: Reference `prob:output' on page 7 undefined on input line 1065.
+
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1091.
+ [8
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1091.
+ (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1091.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1091.
 
 
 Package rerunfilecheck Warning: File `assignment1.out' has changed.
@@ -1014,28 +1350,28 @@ Package rerunfilecheck Warning: File `assignment1.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `assignment1.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2154E13812F1013637C6C87519C101FD;346.
+(rerunfilecheck)             After:  2DDA8394A1BAD0AD4E57C5AE6675DC33;377.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 736.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1091.
  ) 
 Here is how much of TeX's memory you used:
- 13765 strings out of 481239
- 207103 string characters out of 5920377
- 863151 words of memory out of 5000000
- 28377 multiletter control sequences out of 15000+600000
+ 13327 strings out of 481239
+ 199152 string characters out of 5920377
+ 738151 words of memory out of 5000000
+ 28142 multiletter control sequences out of 15000+600000
  604230 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,14n,53p,347b,2087s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,42p,341b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.pdf" (8 pages, 223607 bytes).
+Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.pdf" (8 pages, 214072 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 366 named destinations out of 1000 (max. 500000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 196 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

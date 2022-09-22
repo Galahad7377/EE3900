@@ -1,10 +1,10 @@
-PWD /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1
+PWD /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.tex
-OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.log
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.tex
+OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -156,9 +156,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux
-OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux
+OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
@@ -223,8 +223,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.out
-OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.pdf
+OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.out
+OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txmi.tfm
@@ -267,7 +267,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txsc.tfm
-OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.toc
+OUTPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txmi.tfm
@@ -298,9 +298,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/tcxr.tfm
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.1.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.1.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.1.py
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
@@ -335,65 +332,33 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/tcxr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtcxr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.1.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.1.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.1.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.2.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.2.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.2.py
-INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.2.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.2.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.2.png
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.c
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.c
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.c
-INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/3.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.3.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.3.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/3.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.1.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.1.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.1.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.2.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.2.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.2.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/3.3.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/4.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/4.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/4.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/4.6.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.3.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.3.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.6.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.7.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.7.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/codes/5.8.py
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/figs/5.8.png
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.aux
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.out
-INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/Assignment_1/assignment1.out
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/4.6.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/4.6.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/4.6.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.3.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.7.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.8.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.8.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/figs/5.8.png
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.aux
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.out
+INPUT /media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/assignment1.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
