@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  24 SEP 2022 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  24 SEP 2022 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,10 +996,10 @@ File: ./figs/6.3.png Graphic file (type png)
 <use ./figs/6.3.png>
 Package pdftex.def Info: ./figs/6.3.png  used on input line 716.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Undefined control sequence.
 <argument>  \vec {I}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
-l.752 	\end{align}
+l.750 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1007,28 +1007,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Missing } inserted.
 <inserted text> 
                 }
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Missing { inserted.
 <inserted text> 
                 {
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Undefined control sequence.
 <argument>  \vec {I}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{2} &\vec {e}_4^...
-l.752 	\end{align}
+l.750 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1036,19 +1036,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Missing } inserted.
 <inserted text> 
                 }
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Missing \endgroup inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1056,27 +1056,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Misplaced \omit.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:752: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:750: Missing { inserted.
 <inserted text> 
                 {
-l.752 	\end{align}
+l.750 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Undefined control sequence.
 <argument>  \vec {P}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
-l.756 	\end{align}
+l.754 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1084,28 +1084,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Missing } inserted.
 <inserted text> 
                 }
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Missing { inserted.
 <inserted text> 
                 {
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Undefined control sequence.
 <argument>  \vec {P}_4 = \myvec 
                                 {\vec {e}_4^{1} &\vec {e}_4^{3} &\vec {e}_4^...
-l.756 	\end{align}
+l.754 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1113,19 +1113,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Missing } inserted.
 <inserted text> 
                 }
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Missing \endgroup inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1133,27 +1133,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Misplaced \omit.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:756: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:754: Missing { inserted.
 <inserted text> 
                 {
-l.756 	\end{align}
+l.754 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Undefined control sequence.
 <argument>  \vec {D}_4 = diag\myvec 
                                     {W_{4}^{0} & W_{N}^{1} & W_{N}^{2} & W_{...
-l.760 	\end{align}
+l.758 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1161,28 +1161,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Missing } inserted.
 <inserted text> 
                 }
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Missing { inserted.
 <inserted text> 
                 {
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Undefined control sequence.
 <argument>  \vec {D}_4 = diag\myvec 
                                     {W_{4}^{0} & W_{N}^{1} & W_{N}^{2} & W_{...
-l.760 	\end{align}
+l.758 	\end{align}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1190,19 +1190,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Missing } inserted.
 <inserted text> 
                 }
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Missing \endgroup inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1210,34 +1210,68 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Misplaced \omit.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:760: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:758: Missing { inserted.
 <inserted text> 
                 {
-l.760 	\end{align}
+l.758 	\end{align}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 765.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 765.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./figs/6.3.png>]
+Overfull \hbox (28.50629pt too wide) detected at line 919
+[] [] \OT1/txr/m/n/12 = []
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Undefined control sequence.
+
+LaTeX Warning: Command \j invalid in math mode on input line 998.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 998.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1017.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+
+LaTeX Warning: Command \j invalid in math mode on input line 1273.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1278.
+
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Undefined control sequence.
 <argument>  \vec {x} = \myvec 
                               {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
-l.1063     \end{align}
+l.1339     \end{align}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1245,28 +1279,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Missing } inserted.
 <inserted text> 
                 }
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Missing { inserted.
 <inserted text> 
                 {
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Undefined control sequence.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Undefined control sequence.
 <argument>  \vec {x} = \myvec 
                               {1\\2\\3\\4\\2\\1} \label {eq:equation1} 
-l.1063     \end{align}
+l.1339     \end{align}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1274,19 +1308,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Missing } inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Missing } inserted.
 <inserted text> 
                 }
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Missing \endgroup inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1294,41 +1328,41 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Misplaced \omit.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1063: Missing { inserted.
+/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex:1339: Missing { inserted.
 <inserted text> 
                 {
-l.1063     \end{align}
+l.1339     \end{align}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-LaTeX Warning: Reference `eq:dft-mat-def' on page 7 undefined on input line 1066.
+LaTeX Warning: Reference `eq:dft-mat-def' on page 8 undefined on input line 1342.
 
 
-LaTeX Warning: Reference `prob:output' on page 7 undefined on input line 1073.
+LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 1354.
 
+[8]
 
-LaTeX Warning: Reference `prob:output' on page 7 undefined on input line 1080.
+LaTeX Warning: Reference `prob:output' on page 9 undefined on input line 1361.
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1106.
- [8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1387.
+[9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1387.
  (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1387.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1387.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1344,21 +1378,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1106.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1387.
  ) 
 Here is how much of TeX's memory you used:
- 13311 strings out of 481239
- 198943 string characters out of 5920377
+ 13318 strings out of 481239
+ 199002 string characters out of 5920377
  739137 words of memory out of 5000000
  28131 multiletter control sequences out of 15000+600000
- 604230 words of font info for 179 fonts, out of 8000000 for 9000
+ 606922 words of font info for 183 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,12n,42p,334b,1660s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" (8 pages, 225853 bytes).
+Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" (9 pages, 230865 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 202 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 205 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

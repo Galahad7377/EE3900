@@ -730,9 +730,7 @@ wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.4.py
 \end{enumerate}
 %
 \section{FFT}
-% \subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
-\numberwithin{equation}{section}
+\begin{enumerate}[label=\thesection.\arabic*]
     \item The DFT of $x(n)$ is given by
     \begin{align}
         X(k) \triangleq \sum_{n=0}^{N-1} x(n) e^{-j 2 \pi k n / N}, \quad k=0,1, \ldots, N-1
@@ -763,6 +761,8 @@ W_{N} = e^{-j2\pi/N}
     W_{N}^{2}=W_{N/2}
 \end{equation}
 
+\solution
+\[W_{N}^{2} = e^{-\j4\pi/N} = e^{\frac{-\j2\pi}{N/2}} = W_{N/2}\]
 %    \item Find $\vec{P}_6$.
 %    \item Find $\vec{D}_3$.
     \item Show that 
@@ -778,6 +778,95 @@ W_{N} = e^{-j2\pi/N}
 \end{bmatrix}
 \vec{P}_{4}
 \end{equation}
+\solution
+\[
+\vec{F}_{2} = 
+\begin{bmatrix}
+    W^0_2 & W^0_1 \\
+    W^0_2 & W^1_2
+\end{bmatrix} = 
+\begin{bmatrix}
+     W^0_4 & W^0_4 \\
+    W^0_4 & W^2_4
+\end{bmatrix}
+\]
+\[
+\vec{D}_{2}\vec{F}_{2} =
+\begin{bmatrix}
+    W^0_4 & 0 \\
+    0 & W^1_4
+\end{bmatrix}
+\begin{bmatrix}
+     W^0_4 & W^0_4 \\
+    W^0_4 & W^2_4
+\end{bmatrix}
+\]
+\[
+=
+\begin{bmatrix}
+    W^0_4 & W^0_4 \\
+    W^1_4 & W^3_4
+\end{bmatrix}
+\]
+\[
+-\vec{D}_{2}\vec{F}_{2} =
+\begin{bmatrix}
+    W^2_4 & W^6_4 \\
+    W^3_4 & W^9_4
+\end{bmatrix}
+\]
+\[
+\vec{W}_4 =
+\begin{bmatrix}
+    W^0_4 & W^0_4 & W^0_4 & W^0_4 \\
+    W^0_4 & W^2_4 & W^1_4 & W^3_4 \\
+    W^0_4 & W^4_4 & W^2_4 & W^6_4 \\
+    W^0_4 & W^6_4 & W^3_4 & W^9_4
+\end{bmatrix}
+\]
+\[
+\vec{W}_4 = 
+\begin{bmatrix}
+    \vec{I}_2\vec{F}_2 & \vec{D}_2\vec{F}_2 \\
+    \vec{I}_2\vec{F}_2 & -\vec{D}_2\vec{F}_2
+\end{bmatrix}
+\]
+\[
+\vec{W}_4 =
+\begin{bmatrix}
+	\vec{I}_{2} & \vec{D}_{2} \\
+\vec{I}_{2} & -\vec{D}_{2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{2} & 0 \\
+0 & \vec{F}_{2}
+\end{bmatrix}
+\]
+Multiplying by $\vec{P}_4$ on both sides
+\[
+\vec{W}_4\vec{P}_4 =
+\begin{bmatrix}
+	\vec{I}_{2} & \vec{D}_{2} \\
+\vec{I}_{2} & -\vec{D}_{2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{2} & 0 \\
+0 & \vec{F}_{2}
+\end{bmatrix}
+\vec{P}_4
+\]
+\[\implies
+\vec{F}_4 =
+\begin{bmatrix}
+	\vec{I}_{2} & \vec{D}_{2} \\
+\vec{I}_{2} & -\vec{D}_{2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{2} & 0 \\
+0 & \vec{F}_{2}
+\end{bmatrix}
+\vec{P}_4
+\]
 \item Show that 
 \begin{equation}
 \vec{F}_{N}=
@@ -791,17 +880,142 @@ W_{N} = e^{-j2\pi/N}
 \end{bmatrix}
 \vec{P}_{N}
 \end{equation}
-
+\solution
+Let $\vec{f}^i_N$ denote the $i^{th}$ column of $\vec{F}_N$.
+\[
+\begin{bmatrix}
+    \vec{I}_{N/2}\vec{F}_{N/2} \\
+    \vec{I}_{N/2}\vec{F}_{N/2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    \vec{f}^1_N & \vec{f}^3_N \ldots \vec{f}^N_N
+\end{bmatrix}
+\]
+\[
+\begin{bmatrix}
+    \vec{D}_{N/2}\vec{F}_{N/2} \\
+    -\vec{D}_{N/2}\vec{F}_{N/2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    \vec{f}^2_N & \vec{f}^4_N \ldots \vec{f}^N_N
+\end{bmatrix}
+\]
+\[
+\begin{bmatrix}
+\vec{I}_{N/2} & \vec{D}_{N/2} \\
+\vec{I}_{N/2} & -\vec{D}_{N/2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{N/2} & 0 \\
+0 & \vec{F}_{N/2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    \vec{I}_{N/2}\vec{F}_{N/2} & \vec{D}_{N/2}\vec{F}_{N/2} \\
+    \vec{I}_{N/2}\vec{F}_{N/2} & -\vec{D}_{N/2}\vec{F}_{N/2}
+\end{bmatrix}
+\]
+\[
+=
+\begin{bmatrix}
+    \vec{f}^1_N \ldots \vec{f}^{N-1}_N & \vec{f}^2_N \ldots \vec{f}^N_N
+\end{bmatrix}
+\]
+Multiplying both sides by $\vec{P}_N$
+\[
+\begin{bmatrix}
+\vec{I}_{N/2} & \vec{D}_{N/2} \\
+\vec{I}_{N/2} & -\vec{D}_{N/2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{N/2} & 0 \\
+0 & \vec{F}_{N/2}
+\end{bmatrix}
+\vec{P}_N
+\]
+\[
+=
+\begin{bmatrix}
+    \vec{f}^1_N \ldots \vec{f}^{N-1}_N & \vec{f}^2_N \ldots \vec{f}^N_N
+\end{bmatrix}
+\vec{P}_N
+\]
+\[
+=
+\begin{bmatrix}
+    \vec{f}^1_N \ldots \vec{f}^N_N
+\end{bmatrix}
+\]
+\[\implies
+\begin{bmatrix}
+\vec{I}_{N/2} & \vec{D}_{N/2} \\
+\vec{I}_{N/2} & -\vec{D}_{N/2}
+\end{bmatrix}
+\begin{bmatrix}
+\vec{F}_{N/2} & 0 \\
+0 & \vec{F}_{N/2}
+\end{bmatrix}
+\vec{P}_N = \vec{F}_N
+\]
 \item Find 
     \begin{align}
 	     \vec{P}_4 \vec{x}
     \end{align}
+\solution
+\[
+\vec{P}_4\vec{x} = 
+\begin{bmatrix}
+    1 & 0 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+    x_0\\
+    x_1\\
+    x_2\\
+    x_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+    x_0\\
+    x_2\\
+    x_1\\
+    x_3
+\end{bmatrix}
+\]
 \item Show that 
     \begin{align}
 	    \vec{X} = \vec{F}_N \vec{x}
 	    \label{eq:dft-mat-def}
     \end{align}
 		where $\vec{x}, \vec{X}$ are the vector representations of $x(n), X(k)$ respectively.
+
+\solution
+\[X(k) \sum_{n=0}^{N-1} x(n) e^{-j 2 \pi k n / N}, \quad k=0,1, \ldots, N-1\]
+\[X(N-1) = x(0) + x(1)e^{-\j2\pi(N-1).1/N} + \ldots\]\[+ x(N-1)e^{-\j2\pi(N-1)(N-1)/N}\]
+So,
+\[
+\begin{bmatrix}
+    X(0)\\
+    X(1)\\
+    \vdots\\
+    X(N-1)
+\end{bmatrix}
+=
+\vec{F}
+\begin{bmatrix}
+    x(0)\\
+    x(1)\\
+    \vdots\\
+    x(N-1)
+\end{bmatrix}
+\]
+where
+\[F_{mn} = e^{-\j2mn\pi/N}\]
+\[\implies \vec{X} = \vec{F}_N \vec{x}\]
 \item Derive the following Step-by-step visualisation  of
 8-point FFTs into 4-point FFTs and so on
 \begin{equation}
@@ -1054,6 +1268,68 @@ x(3) \\
 x(7) \\ 
 \end{bmatrix}
 \end{equation}
+\solution
+For an 8 point FFT
+\[X(k) = \sum_{n=0}^{7}x(n)e^{-\j2kn\pi/8}\]
+\[=\sum_{n=0}^3\brak{x(2n)e^{-jkn\pi/4} + x(2n+1)e^{-jk\pi/4}e^{-jkn\pi/2}} \]
+\[=X_1(k) + X_2(k)e^{-jk\pi/4}\]
+$X_1$ and $X_2$ are the 4 point FFTs of the even and odd terms of $X(k)$ respectively.
+Splitting $X_1$ in a similar manner,
+\[X_1(k) = \sum_{n=0}^{3}x(n)e^{-\j2kn\pi/4}\]
+\[=\sum_{n=0}^1\brak{x_1(2n)e^{-jkn\pi/2} + x_2(2n+1)e^{-jk\pi/2}e^{-jkn\pi}} \]
+\[=X_3(k) + X_4(k)e^{-jk\pi/2}\]
+$x_1(n) = x(2n)$ and $x_2(n)=(2n+1)$
+
+We can write
+\[
+\begin{bmatrix}
+    X_4(0)\\
+    X_4(1)
+\end{bmatrix}
+=
+F_2
+\begin{bmatrix}
+    x(2)\\
+    x(6)
+\end{bmatrix}
+\]
+\[
+\begin{bmatrix}
+    X_3(0)\\
+    X_3(1)
+\end{bmatrix}
+=
+F_2
+\begin{bmatrix}
+    x(0)\\
+    x(4)
+\end{bmatrix}
+\]
+proceeding in a similar fashion for $X_2$ we come to
+\[
+\begin{bmatrix}
+    X_6(0)\\
+    X_6(1)
+\end{bmatrix}
+=
+F_2
+\begin{bmatrix}
+    x(3)\\
+    x(7)
+\end{bmatrix}
+\]
+\[
+\begin{bmatrix}
+    X_5(0)\\
+    X_5(1)
+\end{bmatrix}
+=
+F_2
+\begin{bmatrix}
+    x(1)\\
+    x(5)
+\end{bmatrix}
+\]
 
 \item For 
 
@@ -1064,6 +1340,11 @@ x(7) \\
     compte the DFT  
 		using 
 	    \eqref{eq:dft-mat-def}
+     
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/7.11.py
+\end{lstlisting}
     \item Repeat the above exercise using the FFT
 	    after zero padding $\vec{x}$.
 %	    \eqref{eq:fft-mat-def}

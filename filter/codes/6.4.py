@@ -29,3 +29,4 @@ X = np.fft.fft(x_a)
 H = np.fft.fft(h_a)
 Y = X*H
 y_a = np.fft.ifft(Y)
+print(X)
