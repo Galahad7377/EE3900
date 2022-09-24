@@ -685,10 +685,20 @@ Compute
 X(k) \define \sum _{n=0}^{N-1}x(n) e^{-\j2\pi kn/N}, \quad k = 0,1,\dots, N-1
 \end{equation}
 and $H(k)$ using $h(n)$.
+
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.1.py
+\end{lstlisting}
 \item Compute 
 \begin{equation}
 Y(k) = X(k)H(k)
 \end{equation}
+
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.2.py
+\end{lstlisting}
 \item Compute
 \begin{equation}
  y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n = 0,1,\dots, N-1
@@ -699,17 +709,22 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/yndft.py
+wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.3.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{./figs/yndft}
+\includegraphics[width=\columnwidth]{./figs/6.3.png}
 \caption{$y(n)$ from the DFT}
 \label{fig:yndft}
 \end{figure}
 
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and 
 IFFT.
+
+\solution
+\begin{lstlisting}
+wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.4.py
+\end{lstlisting}
 %\item Wherever possible, express all the above equations as matrix equations.
 %\item Verify the above equations by generating the DFT matrix in python.
 \end{enumerate}

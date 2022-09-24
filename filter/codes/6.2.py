@@ -30,7 +30,5 @@ def H(k):
     for n in range(N):
         sum = sum + h(n)*(np.exp(-2j*np.pi*k*n/N))
     return abs(sum)
-
-
-
-
+def Y(k):
+    return X(k)*H(k)

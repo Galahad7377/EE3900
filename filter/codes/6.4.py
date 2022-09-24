@@ -20,17 +20,12 @@ def h(n):
         return delta(n) + delta(n-2) - 0.5*h(n-1)
     else:
         return 2*(delta(n+1) + delta(n-1) - h(n+1))
-def X(k):
-    sum=0
-    for n in range(N):
-        sum = sum + x(n)*(np.exp(-2j*np.pi*k*n/N))
-    return abs(sum)
-def H(k):
-    sum=0
-    for n in range(N):
-        sum = sum + h(n)*(np.exp(-2j*np.pi*k*n/N))
-    return abs(sum)
-
-
-
-
+x_a = [0]*N
+h_a = [0]*N
+for n in range(N):
+    x_a[n] = x(n)
+    h_a[n] = h(n)
+X = np.fft.fft(x_a)
+H = np.fft.fft(h_a)
+Y = X*H
+y_a = np.fft.ifft(Y)
