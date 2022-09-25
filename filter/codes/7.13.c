@@ -6,10 +6,10 @@ typedef double complex cplx;
 
 void splitter(cplx sig[], cplx temp[], int n, int step)
 {
-	if (step < n) 
+	if (step<n) 
     {
-		splitter(temp, sig, n, 2);
-		splitter(temp + step, sig + step, n, step*2);
+		splitter(temp, sig, n, 2*step);
+		splitter(temp + step, sig + step, n, 2*step);
  
 		for (int i = 0; i<n; i+=2*step) 
         {
