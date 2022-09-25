@@ -1278,7 +1278,7 @@ Splitting $X_1$ in a similar manner,
 \[X_1(k) = \sum_{n=0}^{3}x(n)e^{-\j2kn\pi/4}\]
 \[=\sum_{n=0}^1\brak{x_1(2n)e^{-jkn\pi/2} + x_2(2n+1)e^{-jk\pi/2}e^{-jkn\pi}} \]
 \[=X_3(k) + X_4(k)e^{-jk\pi/2}\]
-$x_1(n) = x(2n)$ and $x_2(n)=(2n+1)$
+$x_1(n) = x(2n)$ and $x_2(n)=x(2n+1)$
 
 We can write
 \[
@@ -1330,14 +1330,14 @@ F_2
     x(5)
 \end{bmatrix}
 \]
-
+where $x_3(k)=x(4k)$, $x_4(k)=x(4k+2)$, $x_4(k)=x(4k+1)$, $x_6(k)=x(4k+3)$
 \item For 
 
     \begin{align}
 	    \vec{x} = \myvec{1\\2\\3\\4\\2\\1}
         \label{eq:equation1}
     \end{align}
-    compte the DFT  
+    compute the DFT  
 		using 
 	    \eqref{eq:dft-mat-def}
      
@@ -1348,7 +1348,14 @@ F_2
     \item Repeat the above exercise using the FFT
 	    after zero padding $\vec{x}$.
 %	    \eqref{eq:fft-mat-def}
+
+\solution Check 13
 \item Write a C program to compute the 8-point FFT. 
+
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/7.13.py
+\end{lstlisting}
  \end{enumerate}
 \section{Exercises}
 Answer the following questions by looking at the python code in Problem \ref{prob:output}.

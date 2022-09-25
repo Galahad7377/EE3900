@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  24 SEP 2022 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.11)  25 SEP 2022 19:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1348,21 +1348,21 @@ Try to go on, since this might almost work.
 
 LaTeX Warning: Reference `eq:dft-mat-def' on page 8 undefined on input line 1342.
 
-
-LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 1354.
-
 [8]
 
 LaTeX Warning: Reference `prob:output' on page 9 undefined on input line 1361.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1387.
+
+LaTeX Warning: Reference `prob:output' on page 9 undefined on input line 1368.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1394.
 [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1387.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1394.
  (/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1387.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1387.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1394.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1394.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1378,21 +1378,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1387.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1394.
  ) 
 Here is how much of TeX's memory you used:
- 13318 strings out of 481239
- 199002 string characters out of 5920377
+ 13320 strings out of 481239
+ 199031 string characters out of 5920377
  739137 words of memory out of 5000000
  28131 multiletter control sequences out of 15000+600000
  606922 words of font info for 183 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,12n,42p,334b,1660s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" (9 pages, 230865 bytes).
+Output written on "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" (9 pages, 231295 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 205 named destinations out of 1000 (max. 500000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 207 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
