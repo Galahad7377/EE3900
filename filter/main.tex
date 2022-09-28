@@ -530,7 +530,7 @@ find
 \solution
 \[ H(z) = \frac{1 + z^{-2}}{1 + \frac{1}{2}z^{-1}} \]
 \polylongdiv{X^2+1}{\frac{1}{2}X+1}
-\[ H(z) = 2z^{-1} - 4 + \frac{5}{1 + \frac{1}{2}z^{-1}} \]
+\[ H(z) = 2z^{-1} - 4 + \frac{5}{1 + \frac{1}{2}z^{-1}} \ldots |z| > \frac{1}{2}\] 
 Using the inverse Z-transform
 \[ h(n) = 2\delta(n-1) - 4\delta(n) + 5\brak{-\frac{1}{2}}^n u(n)\]
 \item \label{prob:impulse_resp}
@@ -725,6 +725,10 @@ IFFT.
 \begin{lstlisting}
 wget https://github.com/Galahad7377/EE3900/blob/main/filter/codes/6.4.py
 \end{lstlisting}
+\includegraphics[width=\columnwidth]{./figs/6.4.png}
+\caption{$y(n)$ from FFT}
+\label{fig:ynfft}
+\end{figure}
 %\item Wherever possible, express all the above equations as matrix equations.
 %\item Verify the above equations by generating the DFT matrix in python.
 \end{enumerate}
@@ -1349,7 +1353,7 @@ where $x_3(k)=x(4k)$, $x_4(k)=x(4k+2)$, $x_4(k)=x(4k+1)$, $x_6(k)=x(4k+3)$
 	    after zero padding $\vec{x}$.
 %	    \eqref{eq:fft-mat-def}
 
-\solution Check 13
+\solution Check 7.13
 \item Write a C program to compute the 8-point FFT. 
 
 \solution

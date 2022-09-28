@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1664115388 "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex" "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" "main" 1664115388
+["pdflatex"] 1664346268 "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex" "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf" "main" 1664346268
   "/etc/texmf/web2c/texmf.cnf" 1660237749 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.aux" 1664115388 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex" 1664115385 33326 73a6f671c55a1084fb47edfee9dd5552 ""
+  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.aux" 1664346268 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.tex" 1664346265 33463 10a13bf61965165e1438a4218a061fab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -144,14 +144,15 @@
   "figs/5.7.png" 1661142095 19294 63f290b1f8f9de44f8ac522b21b1dd67 ""
   "figs/5.8.png" 1663519776 16738 08db8dd3c1bc237a6f9403a219bad52d ""
   "figs/6.3.png" 1663996370 14318 160faa6b515e30a8ab3fe18dd599f057 ""
+  "figs/6.4.png" 1664345306 14082 88167e1b9b2fbd02e1bd832d486da529 ""
   "main.aux" 0 -1 0 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1664115385 33326 73a6f671c55a1084fb47edfee9dd5552 ""
+  "main.tex" 1664346265 33463 10a13bf61965165e1438a4218a061fab ""
   (generated)
+  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf"
   "main.pdf"
-  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.log"
   "main.aux"
+  "main.log"
   "main.toc"
   "main.out"
-  "main.log"
-  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.pdf"
+  "/media/aditya/Windows/Users/adity/Desktop/Adi_college_and_misc/Notes and material/EE3900/filter/main.log"

@@ -34,7 +34,7 @@ for k in range(0,N):
 y = np.real(y)/N
 #plots
 plt.stem(range(0,N),y)
-plt.title('Filter Output using DFT')
+plt.title('Filter Output using FFT')
 plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.grid()# minor

@@ -11,7 +11,6 @@ plt.title('Digital Filter Input-Output')
 plt.ylabel('$x(n)$')
 plt.grid()
 
-
 plt.subplot(2, 1, 2)
 plt.stem(range(0,k),y)
 plt.xlabel('$n$')

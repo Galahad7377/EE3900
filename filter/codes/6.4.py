@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 N=15
 def x(n):
@@ -29,4 +30,6 @@ X = np.fft.fft(x_a)
 H = np.fft.fft(h_a)
 Y = X*H
 y_a = np.fft.ifft(Y)
-print(X)
+plt.stem(range(0,N),abs(y_a))
+plt.show
+print(y_a)
