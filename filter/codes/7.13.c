@@ -1,42 +1,50 @@
-#include<stdio.h>
-#include<math.h>
-#include<complex.h>
-#define PI 3.141592654
-typedef double complex cplx;
-
-void splitter(cplx sig[], cplx temp[], int n, int step)
-{
-	if (step<n) 
-    {
-		splitter(temp, sig, n, 2*step);
-		splitter(temp + step, sig + step, n, 2*step);
+#include <stdio.h>
+#include <math.h>
+#include <complex.h>
  
-		for (int i = 0; i<n; i+=2*step) 
-        {
-			cplx t = cexp(-I * PI * i/n) * temp[i + step];
-			sig[i/2] = temp[i] + t;
-			sig[(i+n)/2] = temp[i] - t;
+double PI;
+typedef double complex cplx;
+ 
+void _fft(cplx buf[], cplx out[], int n, int step)
+{
+	if (step < n) {
+		_fft(out, buf, n, step * 2);
+		_fft(out + step, buf + step, n, step * 2);
+ 
+		for (int i = 0; i < n; i += 2 * step) {
+			cplx t = cexp(-I * PI * i / n) * out[i + step];
+			buf[i / 2]     = out[i] + t;
+			buf[(i + n)/2] = out[i] - t;
 		}
 	}
 }
  
-void fft(cplx sig[], int n)
+void fft(cplx buf[], int n)
 {
-	cplx temp[n];
-	for (int i = 0; i<n; i++) 
-    {
-        temp[i] = sig[i];
-    }
+	cplx out[n];
+	for (int i = 0; i < n; i++) out[i] = buf[i];
  
-	splitter(sig, temp, n, 1);
+	_fft(buf, out, n, 1);
+}
+ 
+ 
+void show(const char * s, cplx buf[]) {
+	printf("%s", s);
+	for (int i = 0; i < 8; i++)
+		if (!cimag(buf[i]))
+			printf("%g ", creal(buf[i]));
+		else
+			printf("(%g, %g) ", creal(buf[i]), cimag(buf[i]));
 }
 
 int main()
 {
-    cplx sig[] = {0,1,2,3,4,3,2,0};
-    fft(sig,8);
-    for (int i = 0; i<8; i++)
-    {
-        printf("%g + %gi \n",creal(sig[i]), cimag(sig[i]));
-    }
+	PI = atan2(1, 1) * 4;
+	cplx buf[] = {0, 1, 2, 3, 4, 2, 1, 0};
+ 
+	show("Data: ", buf);
+	fft(buf, 8);
+	show("\nFFT : ", buf);
+ 
+	return 0;
 }
