@@ -302,7 +302,7 @@ Generate a stem plot for $x(n)$.
 \[x(n+2) = x(n+1) + x(n)\]
 \[\implies \mathcal{Z}^{+}\{x(n+2)\}&=\mathcal{Z}^{+}\{x(n+1)\}+\mathcal{Z}^{+}\{x(n)\}\]
 \[\implies z^2X^{+}(z)-z^2-z&=zX^{+}(z)-z+X^{+}(z)\]
-\[\implies X^{+}(z) = \frac{1}{1-z^{-1}-z^{-2}}\]
+\[\implies X^{+}(z) = \frac{1}{1-z^{-1}-z^{-2}}, \quad |z| > \alpha\]
 \item Find $x(n)$.
 
 \solution
@@ -334,7 +334,7 @@ using GP summation
 \[\mathcal{Z}^+\{y(n)\} = \mathcal{Z}^+\{x(n+1)\}+\mathcal{Z}^+\{x(n-1)\}\]
 \[Y^+(z) = zX^+(z)-z+z^{-1}X^+(z)\]
 \[X^{+}(z) = \frac{1}{1-z^{-1}-z^{-2}}\]
-\[\implies Y^+(z) = \frac{1+2z^{-1}}{1-z^{-1}-z^{-2}}\]
+\[\implies Y^+(z) = \frac{1+2z^{-1}}{1-z^{-1}-z^{-2}}, \quad |z| > \alpha\]
 \item Find $y(n)$.
 
 \solution
@@ -352,6 +352,12 @@ using the fact that $\alpha\beta = 1$ and $\alpha + \beta = -1$
 	\sum_{k=1}^{n}a_k = 
 	\sum_{k=0}^{n-1}x(n) = x(n)*u(n-1)
 \end{align}
+
+\solution
+\[\sum_{k=1}^na_k = \sum_{k=0}^{n-1}a_{k+1} = \sum_{k=0}^{n-1}x(k)\]
+adding an $x(n)$ term
+\[ = \sum_{k=0}^{n-1}x(k)u(n-1-k) + x(n)u(n-1-n)\]
+\[=\sum_{k=0}^{n}x(k)u(n-1-k) = x(n)*u(n-1)\]
 \item Show that 
 \begin{align}
 a_{n+2}-1, \quad n \ge 1
@@ -360,11 +366,17 @@ can be expressed as
 \begin{align}
 	\sbrak{x\brak{n+1}-1}u\brak{n}
 \end{align}
+\solution
+For $n\ge0$ $x(n) = a_{n+1}$
+\[\implies a_{n+2} - 1 = x(n+1)-1\]
+\[=(x(n+1)-1)u(n)\]
  \item Show that 
 \begin{align}
 	\sum_{k=1}^{\infty}\frac{a_k}{10^k}= 
 	\frac{1}{10}\sum_{k=0}^{\infty}\frac{x\brak{k}}{10^k} =\frac{1}{10}X^{+}\brak{{10}}
 \end{align}
+\solution
+\[\sum_{k=1}^{\infty}\frac{a_k}{10^k} = \sum_{k=0}^{\infty}\frac{a_{k+1}}{10^{k+1}}\]\[ = \sum_{k=0}^{\infty}\frac{x(k)}{10^{k+1}} = \frac{1}{10}\sum_{k=0}^{\infty}\frac{x(k)}{10^{k}} = \frac{1}{10}X^{+}\brak{{10}}\]
  \item Show that 
 \begin{align}
 	\alpha^n + \beta^n, \quad n \ge 1
@@ -374,15 +386,46 @@ can be expressed as
 	w(n) =\brak{\alpha^{n+1} + \beta^{n+1}}u(n)
 \end{align}
 		and find $W(z)$.
-
+  
+\solution
+\[\alpha^n + \beta^n, \quad n \ge 1\]
+is the same as
+\[\alpha^{n+1} + \beta^{n+1}, \quad n \ge 0\]
+\[\implies w(n) = \brak{\alpha^{n+1} + \beta^{n+1}}u(n)\]
+Z-transform of $w(n)$
+\[W(z) = \sum_{n=-\infty}^{\infty}w(n)z^{-n}\]
+\[=\sum_{n=0}^{\infty}\alpha^{n+1}z^{-n} + \beta^{n+1}z^{-n}\]
+\[= \frac{\alpha}{1-\alpha z^{-1}}+\frac{\beta}{1-\beta z^{-1}}, \quad |z| > \alpha\]
+using the fact that $\alpha\beta = 1$ and $\alpha + \beta = -1$
+\[\implies W(z) = \frac{1+2z^{-1}}{1-z^{-1}-z^{-2}}\]
  \item Show that 
 \begin{align}
 	\sum_{k=1}^{\infty}\frac{b_k}{10^k} =
 	\frac{1}{10}\sum_{k=0}^{\infty}\frac{y\brak{k}}{10^k} =\frac{1}{10}Y^{+}\brak{{10}}
 \end{align}
+\solution
+\[\sum_{k=1}^{\infty}\frac{b_k}{10^k} = \sum_{k=0}^{\infty}\frac{b_{k+1}}{10^{k+1}}\]\[ = \sum_{k=0}^{\infty}\frac{y(k)}{10^{k+1}} = \frac{1}{10}\sum_{k=0}^{\infty}\frac{y(k)}{10^{k}} = \frac{1}{10}Y^{+}\brak{{10}}\]
 \item Solve the JEE 2019 problem.
 
+\solution
+
+From 3.1 
+\[\sum_{k=1}^na_k = x(n)*u(n-1)\]
+Positive Z transform of right side gives
+\[\implies X^+(z)z^{-1}U^+(z)\]
+\[=\frac{z^{-1}}{(1-z^{-1}-z^{-2})(1-z^{-1})}\]
+\[=\frac{z}{1-z^{-1}-z^{-2}} - \frac{z}{1-z^{-1}}\]
+\[=\sum_{n=0}^\infty (x(n)-1)z^{-n+1}\]
+replacing $n$ with $n+1$
+\[=\sum_{n=0}^\infty (x(n+1)-1)z^{-n}\]
+inverse Z transform gives
+\[\implies (x(n+1) -1)u(n) = a_{n+2}-1\]
+\[\sum_{k=1}^\infty\frac{a_k}{10^k} = \frac{1}{10}X^+(10) = \frac{1}{10}.\frac{100}{100 -10 -1}\]
+\[=\frac{10}{89}\]
+\[\implies b_n = a_{n+1} + a_{n-1}\]
+\[ =x(n) + x(n-2) = y(n-1)\]
+\[=\alpha^n + \beta^n\]
+\[\sum_{k=1}^\infty\frac{b_k}{10^k} = \frac{1}{10}Y^+(10) = \frac{1}{10}.\frac{100 + 2.10}{100 -10 -1}\]
+\[ = \frac{12}{89}\]
 \end{enumerate}
-
-
 \end{document}

@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1665231149 "/home/aditya/Desktop/EE3900/pingala/main.tex" "main.pdf" "main" 1665231149
+["pdflatex"] 1665238428 "/home/aditya/Desktop/EE3900/pingala/main.tex" "main.pdf" "main" 1665238428
   "/etc/texmf/web2c/texmf.cnf" 1664390011 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/aditya/Desktop/EE3900/pingala/main.tex" 1665231146 12106 bb15d14aaf5387c5f1042ba0f8a1e6d1 ""
+  "/home/aditya/Desktop/EE3900/pingala/main.tex" 1665238425 14130 d5491c451b20c6b8503f4fd49911a175 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -135,9 +135,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664391723 2801821 8937e4e31fb8dcb0deeb7baeb36bc0a4 ""
   "figs/2.2.png" 1665227059 14822 b4ffe709e928c6c974968b71da6870bb ""
   "figs/2.5.png" 1665229226 16153 8d6377c5aea9c4962e767fffdeda65ec ""
-  "main.aux" 1665231149 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1665238428 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1665231146 12106 bb15d14aaf5387c5f1042ba0f8a1e6d1 ""
+  "main.tex" 1665238425 14130 d5491c451b20c6b8503f4fd49911a175 ""
   (generated)
   "main.aux"
   "main.log"
