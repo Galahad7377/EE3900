@@ -266,7 +266,10 @@ Verify the following using a python code.
 \begin{align}
 	\sum_{k=1}^{\infty}\frac{b_k}{10^k} =\frac{8}{89}
 \end{align}
-
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/pingala/codes/1.py
+\end{lstlisting}
 \end{enumerate}
 \section{Pingala Series}
 \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
@@ -282,17 +285,65 @@ Verify the following using a python code.
 	\label{eq:10-pingala}
 \end{align}
 Generate a stem plot for $x(n)$.
+
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/pingala/codes/2.2.py
+\end{lstlisting}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figs/2.2.png}
+    \caption{Pingala series}
+    \label{fig:xn}
+\end{figure}
 \item 		Find $X^{+}(z)$.
-	\item Find $x(n)$.
+
+\solution
+\[x(n+2) = x(n+1) + x(n)\]
+\[\implies \mathcal{Z}^{+}\{x(n+2)\}&=\mathcal{Z}^{+}\{x(n+1)\}+\mathcal{Z}^{+}\{x(n)\}\]
+\[\implies z^2X^{+}(z)-z^2-z&=zX^{+}(z)-z+X^{+}(z)\]
+\[\implies X^{+}(z) = \frac{1}{1-z^{-1}-z^{-2}}\]
+\item Find $x(n)$.
+
+\solution
+\[\frac{1}{1-z^{-1}-z^{-2}} = \frac{1}{\brak{1-\alpha z^{-1}} \brak{1-\beta z^{-1}}}\]
+\[ X^{+}(z) = \brak{\frac{z}{\alpha-\beta}}\brak{\frac{1}{1-\alpha z^{-1}} - \frac{1}{1-\beta z^{-1}} }\]
+using GP summation
+\[=\sum_{n=0}^\infty \frac{\alpha^{n+1}-\beta^{n+1}}{\alpha-\beta}z^{-n}\]
+\[\implies x(n) = \frac{\alpha^{n+1}-\beta^{n+1}}{\alpha-\beta} u(n) = a_{n+1}u(n)\]
 
 	\item Sketch 
 \begin{align}
 	y(n)	 = x\brak{n-1} + x\brak{n+1},  \quad n \ge 0
 	\label{eq:10-orig-diff-rev}
 \end{align}
+\solution
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/pingala/codes/2.5.py
+\end{lstlisting}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figs/2.5.png}
+    \caption{y(n)}
+    \label{fig:yn}
+\end{figure}
 
-	\item Find $Y^{+}(z)$. 
+\item Find $Y^{+}(z)$. 
+
+\solution
+\[\mathcal{Z}^+\{y(n)\} = \mathcal{Z}^+\{x(n+1)\}+\mathcal{Z}^+\{x(n-1)\}\]
+\[Y^+(z) = zX^+(z)-z+z^{-1}X^+(z)\]
+\[X^{+}(z) = \frac{1}{1-z^{-1}-z^{-2}}\]
+\[\implies Y^+(z) = \frac{1+2z^{-1}}{1-z^{-1}-z^{-2}}\]
 \item Find $y(n)$.
+
+\solution
+\[Y^+(z) = X^+(z) + \frac{2}{\brak{z-\alpha}\brak{z-\beta}}\]
+\[= X^+(z) +\frac{2}{\alpha-\beta}\brak{\sum_{n=0}^{\infty} (\alpha^n+\beta^n)z^{-n}}\]
+\[ \implies y(n) = a_{n+1}u(n) + 2\frac{\alpha^n+\beta^n}{\alpha-\beta}u(n)\]
+\[ = \frac{\alpha^{n+1} - \beta^{n+1}+2\alpha^n+2\beta^{n}}{\alpha-\beta}u(n)\]
+using the fact that $\alpha\beta = 1$ and $\alpha + \beta = -1$
+\[\implies y(n) = \alpha^{n+1}+\beta^{n+1}\]
 \end{enumerate}
 \section{Power of the Z transform}
 \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]

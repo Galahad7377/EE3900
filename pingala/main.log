@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.29)  2 OCT 2022 08:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.29)  8 OCT 2022 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,7 +651,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
- (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -683,35 +682,75 @@ File: utxsyb.fd 2000/12/15 v3.1
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 223.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) (./main.toc)
+)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
-Overfull \hbox (25.86975pt too wide) detected at line 283
+Overfull \hbox (25.86975pt too wide) detected at line 286
 []
  []
+
+<figs/2.2.png, id=4, 462.528pt x 346.896pt>
+File: figs/2.2.png Graphic file (type png)
+<use figs/2.2.png>
+Package pdftex.def Info: figs/2.2.png  used on input line 295.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+/home/aditya/Desktop/EE3900/pingala/main.tex:303: Misplaced alignment tab character &.
+l.303 \[\implies \mathcal{Z}^{+}\{x(n+2)\}&
+                                           =\mathcal{Z}^{+}\{x(n+1)\}+\mathc...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/aditya/Desktop/EE3900/pingala/main.tex:304: Misplaced alignment tab character &.
+l.304 \[\implies z^2X^{+}(z)-z^2-z&
+                                   =zX^{+}(z)-z+X^{+}(z)\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6EF0FDA02AE42AB5EB9699AF63378C50;377.
+ <./figs/2.2.png>]
+<figs/2.5.png, id=46, 462.528pt x 346.896pt>
+File: figs/2.5.png Graphic file (type png)
+<use figs/2.5.png>
+Package pdftex.def Info: figs/2.5.png  used on input line 326.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ [2 <./figs/2.5.png>] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  6EF0FDA02AE42AB5EB9699AF63378C50;377.
  ) 
 Here is how much of TeX's memory you used:
- 15689 strings out of 478287
- 248951 string characters out of 5849289
- 746925 words of memory out of 5000000
- 33612 multiletter control sequences out of 15000+600000
+ 16117 strings out of 478287
+ 252724 string characters out of 5849289
+ 773925 words of memory out of 5000000
+ 34033 multiletter control sequences out of 15000+600000
  539174 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,9n,63p,268b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,63p,268b,1314s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 67651 bytes).
+Output written on main.pdf (2 pages, 94759 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
- 39 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

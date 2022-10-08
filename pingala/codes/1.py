@@ -25,5 +25,5 @@ print(b(n) - A**n - B**n)
 sum = 0
 for i in np.linspace(1,n,n):
     sum += b(i)/(10**i)
-print(sum - 8/89)
+print(sum - 10/89)
 
