@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1665374704 "/home/aditya/Desktop/EE3900/cktsig/main.tex" "main.pdf" "main" 1665374705
+["pdflatex"] 1665509154 "/home/aditya/Desktop/EE3900/cktsig/main.tex" "main.pdf" "main" 1665509154
   "/etc/texmf/web2c/texmf.cnf" 1664390011 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/aditya/Desktop/EE3900/cktsig/main.tex" 1665374081 18793 d965808d832c1773f69d139641e636e4 ""
+  "/home/aditya/Desktop/EE3900/cktsig/main.tex" 1665509151 21880 7538c0ff04a21238253c89bb88fa33bd ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -130,12 +130,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664391684 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664391723 2801821 8937e4e31fb8dcb0deeb7baeb36bc0a4 ""
+  "figs/2.7.png" 1665494831 17467 a649fdd318c072a144c529248fbea039 ""
+  "figs/3.4.png" 1665507369 17002 7d52839c4543a254b77491b43b4e67b9 ""
   "figs/ckt.jpg" 1665374642 69298 63890edd9fcac75851d5561bfccbbec3 ""
   "figs/lap-ckt.jpg" 1665374685 144596 60230f709c71f4dc5cd9c27272bc7bfb ""
-  "main.aux" 1665374705 1547 0a1bac56ba7a2963428d35418a414ccf "pdflatex"
-  "main.out" 1665374705 365 b3e3ccc68c338a65e874c98dfabadf2b "pdflatex"
-  "main.tex" 1665374081 18793 d965808d832c1773f69d139641e636e4 ""
-  "main.toc" 1665374705 214 e4d5ef0c29397885386162140f43c6e9 "pdflatex"
+  "main.aux" 1665509154 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.out" 0 -1 0 "pdflatex"
+  "main.tex" 1665509151 21880 7538c0ff04a21238253c89bb88fa33bd ""
   (generated)
   "main.aux"
   "main.log"

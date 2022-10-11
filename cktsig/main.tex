@@ -513,13 +513,28 @@ u(t) =
 \end{figure}
 \item Draw the circuit using latex-tikz.
 \item Find $q_1$.
+
+\solution
+No current will pass through the capacitor, hence
+\[i = \frac{2-1}{2+1} = \frac{1}{3}A\]
+\[V_c = 2 - 2.i = \frac{4}{3}V\]
+\[ q_1 = \frac{4}{3}\mu C\]
 	\item Show that the Laplace transform of $u(t)$ is $\frac{1}{s}$ and find the ROC.
+
+ \solution
+ \[U(s)=\int_{-\infty}^{\infty}u(t)e^{-st}dt\]
+ \[ = \int_{0}^{\infty}e^{-st}dt = \frac{1}{s}, \quad s>0\]
 	\item Show that 
 		\begin{align}
 			e^{-at}u(t) \system{L} \frac{1}{s+a}, \quad a > 0
 		\end{align}
 		and find the ROC.
-	\item Now consider the following resistive circuit transformed from 
+  
+  \solution
+  \[ = \int_{-\infty}^{\infty}u(t)e^{-at}e^{-st}dt\]
+  \[ = \int_{0}^{\infty}e^{-(s+a)t}dt\]
+  \[= \frac{1}{s+a}, \quad s+a>0 \]
+\item Now consider the following resistive circuit transformed from 
 			Fig. \ref{fig:ckt}
 		\begin{figure}[!ht]
 			\centering
@@ -534,11 +549,41 @@ u(t) =
 			2u(t) \system{L} V_2(s)
 		\end{align}
 		Find the voltage across the capacitor $V_{C_0}(s)$.
+  \solution
+  From Q2.4
+  \[V_1(s) = \frac{1}{s} \quad V_2(s) = \frac{2}{s}\]
+  \[\frac{V_1-V_C}{R_1} + \frac{V_2 - V_C}{R_2} - V_CsC = 0\]
+  simplifying,
+  \[\implies V_c(s)=\frac{2R_1 + R_2}{R_1 + R_2}\brak{\frac{1}{s} - \frac{1}{\frac{R_1 + R_2}{R_1R_2C}+s}}\]
 	\item Find $v_{C_0}(t)$.  Plot using python.
+ 
+ \solution
+ Using the inverse Laplace transform from the obtained $V_c(s)$ we get,
+ \[v_c(t) = \frac{2R_1 + R_2}{R_1 + R_2}u(t)\brak{1-e^{-\frac{R_1+R_2}{R_1R_2C}t}}\]
+ \[R_1 = 1\ohm \quad R_2 = 2\ohm \quad C = 1\mu F\]
+ \[v_c(t) = \frac{4}{3}u(t)\brak{1-e^{-1.5\times10^{6}t}}\]
+ \begin{lstlisting}
+     wget https://github.com/Galahad7377/EE3900/blob/main/cktsig/codes/2.7.py
+ \end{lstlisting}
+ \begin{figure}[!ht]
+			\centering
+			\includegraphics[width=\columnwidth]{figs/2.7.png}
+			\caption{$v_c(t)$}
+			\label{}
+\end{figure}
 	\item Verify your result using ngspice.
 	\item Obtain Fig. 
 			\ref{fig:lap-ckt}
 			using the equivalent differential equation.
+
+   \solution
+   \[\frac{dq}{dt} = \frac{V_1 - V_c}{R_1} +\frac{V_2 - V_c}{R_2}\]
+   \[\frac{dq}{dt} = 1 - \frac{q}{C} + \frac{1}{2}\brak{2-\frac{q}{C}}\]
+   simplifying and integrating,
+   \[\int_0^{q_1} \frac{dq}{2-1.5q/C} = \int_0^tdt\]
+   \[\ln{\frac{2-1.5q/C}{2} = 1.5\frac{t}{C}\]
+   \[\implies q_1 = \frac{4}{3}\brak{1-e^{-1.5\times10^{6}t}}\times10^{-6}\]
+   
 \end{enumerate}
 
  \section{Initial Conditions}
@@ -546,17 +591,57 @@ u(t) =
 \numberwithin{equation}{section}
 \item Find $q_2$ in Fig. 
 			\ref{fig:ckt}.
+
+   
+   \solution
+   \[i=\frac{2}{1+2} = \frac{2}{3}A\]
+   \[V_c = 2 - 2.i = \frac{2}{3}V\]
+   \[\implies q_2 = CV_c = \frac{2}{3}\mu C\]
 \item Draw the equivalent $s$-domain resistive circuit when S is switched to position Q.  Use variables $R_1, R_2, C_0$ for the passive elements.
 Use latex-tikz.
 		\label{prob:init}
 	
 		\item $V_{C_0}(s)$ = ?  
+  
+  \solution
+  \[\frac{V_C - 2/s}{R_2} + \frac{V_C}{R_1} + \brak{V_C - 4/3s}sC = 0\]
+  \[V_C(s) = \frac{\frac{2}{sR_2} + \frac{4}{3}C}{\frac{1}{R_1} + \frac{2}{R_2} + sC}\]
 	\item $v_{C_0}(t)$ = ? Plot using python.
+ 
+ \solution Further simplifying,
+ \[V_C(s) = \frac{4}{3}\brak{\frac{1}{\frac{R_1 + R_2}{R_1R_2C}+s}} + \frac{2R_1R_2}{R_2\brak{R_1+R_2}}\brak{\frac{1}{s} - \frac{1}{ \frac{R_1 + R_2}{R_1R_2C}+ s}}\]
+ Using the inverse Laplace transform from the obtained Vc(s) we get,
+ \[v_c(t) = \frac{4}{3}e^{{\frac{R_1 + R_2}{R_1R_2}\frac{t}{C}}} + \frac{2R_1R_2}{R_2\brak{R_1+R_2}}\brak{1 - e^{{ \frac{R_1 + R_2}{R_1R_2}\frac{t}{C}}}}\]
+ \[R_1 = 1\ohm \quad R_2 = 2\ohm \quad C = 1\mu F\]
+\[\implies v_c(t) = \frac{2}{3}u(t)\brak{1+e^{-1.5\times10^{6}t}}\]
+\begin{lstlisting}
+    wget https://github.com/Galahad7377/EE3900/blob/main/cktsig/codes/3.4.py
+\end{lstlisting}
+ \begin{figure}[!ht]
+			\centering
+			\includegraphics[width=\columnwidth]{figs/3.4.png}
+			\caption{$v_c(t)$}
+			\label{}
+\end{figure}
 	\item Verify your result using ngspice.
 	\item Find $v_{C_0}(0-), v_{C_0}(0+)$ and  $v_{C_0}(\infty) $. 
+ 
+ \solution
+ from section 2,
+ \[v_c(0-) = \frac{4}{3}V\]
+ from Q3.4
+ \[v_c(0+) = \frac{4}{3}V\]
+ \[v_c(\infty) = \frac{2}{3}V\]
 	\item Obtain the Fig.  in problem 
 		\ref{prob:init}
 			using the equivalent differential equation.
+
+   \solution
+   \[\frac{dq}{dt} = \frac{2-V_C}{2} - V_C\]
+   simplifying and integrating,
+   \[\int_{4/3\mu C}^q \frac{dq}{2-3q/C} = 2\int_0^tdt\]
+   \[\ln{\frac{2-3q/C}{-2}} = -1.5\frac{t}{C}\]
+   \[q = \frac{2}{3}\brak{1+e^{-1.5\times10^{6}t}}\times10^{-6}\]
 
 
 	\end{enumerate}
