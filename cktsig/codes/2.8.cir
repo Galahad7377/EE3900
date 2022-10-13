@@ -1,0 +1,14 @@
+Switch on P
+
+V2 in 0 dc 2V
+V1 1 0 dc 1V
+R2 in out 2
+R1 1 out 1
+C1 out 0 1u ic=0
+
+.control
+tran 0.1u 7u uic
+plot out
+.endc
+
+.end

@@ -1,0 +1,13 @@
+Switch on Q
+
+V2 in 0 dc 2V
+R2 in out 2
+R1 0 out 1
+C1 out 0 1u ic=1.33
+
+.control
+tran 0.1u 7u uic
+plot out
+.endc
+
+.end
