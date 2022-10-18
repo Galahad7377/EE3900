@@ -39,6 +39,8 @@
 %\usepackage{iithtlc}
 %\usepackage[framemethod=tikz]{mdframed}
 \usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary { decorations.pathmorphing, decorations.pathreplacing, decorations.shapes, }
 \let\vec\mathbf
 
 
@@ -512,6 +514,48 @@ u(t) =
 			\label{fig:ckt}
 \end{figure}
 \item Draw the circuit using latex-tikz.
+
+\solution
+
+\begin{tikzpicture}
+\draw[gray, thick] (0.75,1.2) -- (0.75,3.6); %Q
+\draw[gray, thick] (0.5,4.4) -- (1.25,4); %S
+\draw[gray, thick] (-0.25,4) -- (0.15,4); %P
+
+\draw[gray, thick] (1.25,4) -- (1.75,4); %R_1 and R_2
+\draw[decorate,decoration=zigzag] (1.75,4) -- (3.25,4);
+\draw[gray, thick] (3.25,4) -- (5.25,4);
+\draw[decorate,decoration=zigzag] (5.25,4) -- (6.75,4);
+\draw[gray, thick] (6.75,4) -- (7.75,4);
+
+
+
+\draw[gray, thick] (-0.25,1.2) -- (-0.25,1.95); %1V
+\draw[gray, thick] (-0.25,2.25) -- (-0.25,4);
+\draw[gray, thick] (-0.5,1.95) -- (0,1.95);
+\draw[gray, thick] (-0.75,2.25) -- (0.25,2.25);
+
+\draw[gray, thick] (7.75,1.2) -- (7.75,1.95); %2V
+\draw[gray, thick] (7.5,1.95) -- (8,1.95);
+\draw[gray, thick] (7.25,2.25) -- (8.25,2.25);
+\draw[gray, thick] (7.75,2.25) -- (7.75,4);
+
+\draw[gray, thick] (3.75,1.2) -- (3.75,2.25); %capacitor
+\draw[gray, thick] (3.75,2.55) -- (3.75,4);
+\draw[gray, thick] (3.5,2.25) -- (4,2.25);
+\draw[gray, thick] (3.5,2.55) -- (4,2.55);
+
+\draw[gray, thick] (-0.25,1.2) -- (7.75,1.2); %base
+
+\node[] at (-0.85,1.85) {1V};
+\node[] at (7.15,1.85) {2V};
+\node[] at (2.85,2) {1$\mu$F};
+\node[] at (0.25,3.7) {P};
+\node[] at (0.85,4.6) {S};
+\node[] at (1.05,3.4) {Q};
+\node[] at (2.3,4.4) {1$\ohm$};
+\node[] at (6,4.4) {2$\ohm$};
+\end{tikzpicture}
 \item Find $q_1$.
 
 \solution
@@ -610,6 +654,62 @@ No current will pass through the capacitor, hence
    \[\implies q_2 = CV_c = \frac{2}{3}\mu C\]
 \item Draw the equivalent $s$-domain resistive circuit when S is switched to position Q.  Use variables $R_1, R_2, C_0$ for the passive elements.
 Use latex-tikz.
+
+\solution
+\\
+
+\begin{tikzpicture}
+
+\draw[gray, thick] (1,0) -- (1,4); %Q
+% \draw[gray, thick] (0.75,4.4) -- (1.5,4); %S
+% \draw[gray, thick] (0,4) -- (0.6,4); %P
+
+\draw[gray, thick] (1,4) -- (1.7,4); %R_1 and R_2
+% \draw[decorate,decoration=zigzag] (2,4) -- (3.5,4);
+\draw[gray, thick] (3.3,4) -- (5.2,4);
+% \draw[decorate,decoration=zigzag] (5.5,4) -- (7,4);
+\draw[gray, thick] (6.8,4) -- (8,4);
+
+    \node[rectangle,draw] (r) at (2.5,4) {$\quad  R_1\quad$};
+    \node[rectangle,draw] (r) at (6,4) {$\quad  R_2\quad$};
+    \node[rectangle,draw] (r) at (4,1) {$\quad  sC\quad$};
+    % \node[circle,draw] (r) at (4,3) {$V$};
+
+
+% \draw[gray, thick] (0,0) -- (0,1.95); %1V
+% \draw[gray, thick] (0,2.25) -- (0,4);
+% \draw[gray, thick] (-0.25,1.95) -- (0.25,1.95);
+% \draw[gray, thick] (-0.5,2.25) -- (0.5,2.25);
+
+\draw[gray, thick] (8,0) -- (8,1.5); %2V
+% \draw[gray, thick] (7.75,1.95) -- (8.25,1.95);
+% \draw[gray, thick] (7.5,2.25) -- (8.5,2.25);
+    \node[circle,draw] (r) at (4,3) {$\frac{4}{3s}$};
+    \node[circle,draw] (r) at (8,2) {$\frac{2}{s}$};
+
+\draw[gray, thick] (8,2.5) -- (8,4);
+
+\draw[gray, thick] (4,0) -- (4,0.7); 
+\draw[gray, thick] (4,2.45) -- (4,1.3); 
+\draw[gray, thick] (4,3.55) -- (4,4);
+% \draw[gray, thick] (3.75,1.95) -- (4.25,1.95);
+% \draw[gray, thick] (3.75,2.25) -- (4.25,2.25);
+
+\draw[gray, thick] (1,0) -- (8,0); %base
+
+% \node[] at (-0.6,1.85) {1V};
+\node[] at (3.4,2.5) {-};
+\node[] at (3.4,3.5) {+};
+
+\node[] at (7.4,1.5) {-};
+\node[] at (7.4,2.5) {+};
+% \node[] at (3.1,2) {$C_0$};
+% \node[] at (0.5,3.7) {P};
+% \node[] at (1.1,4.6) {S};
+% \node[] at (2.55,4.4) {$R_1$};
+% \node[] at (6.25,4.4) {$R_2$};
+\end{tikzpicture}
+\\
 		\label{prob:init}
 	
 		\item $V_{C_0}(s)$ = ?  
