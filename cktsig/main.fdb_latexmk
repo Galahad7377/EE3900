@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1666099618 "/home/aditya/Desktop/EE3900/cktsig/main.tex" "main.pdf" "main" 1666099618
+["pdflatex"] 1666149186 "/home/aditya/Desktop/EE3900/cktsig/main.tex" "main.pdf" "main" 1666149186
   "/etc/texmf/web2c/texmf.cnf" 1664390011 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/aditya/Desktop/EE3900/cktsig/main.tex" 1666099615 25456 4bfb2e15ce9710d8fedeb455f424e0d2 ""
+  "/home/aditya/Desktop/EE3900/cktsig/main.tex" 1666149182 25489 fd35bacd5bb3197a46c73a78bef9db29 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -209,9 +209,9 @@
   "figs/3.5.png" 1665642818 13273 2df3ae0f78f161bb9dbe3134dcfac061 ""
   "figs/ckt.jpg" 1665374642 69298 63890edd9fcac75851d5561bfccbbec3 ""
   "figs/lap-ckt.jpg" 1665374685 144596 60230f709c71f4dc5cd9c27272bc7bfb ""
-  "main.aux" 1666099618 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1666149186 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1666099615 25456 4bfb2e15ce9710d8fedeb455f424e0d2 ""
+  "main.tex" 1666149182 25489 fd35bacd5bb3197a46c73a78bef9db29 ""
   (generated)
   "main.aux"
   "main.log"
