@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1667453166 "/home/aditya/Desktop/EE3900/charger_lab/main.tex" "main.pdf" "main" 1667453167
+["pdflatex"] 1667975095 "/home/aditya/Desktop/EE3900/charger_lab/main.tex" "main.pdf" "main" 1667975095
   "/etc/texmf/web2c/texmf.cnf" 1664390011 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/aditya/Desktop/EE3900/charger_lab/main.tex" 1667453165 1841 bfaed27aa63623b267bb22da7f4d82a1 ""
+  "/home/aditya/Desktop/EE3900/charger_lab/main.tex" 1667975094 2038 b8eaf185242416b2852da4392897b809 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -58,12 +58,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664391684 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664391723 2801821 8937e4e31fb8dcb0deeb7baeb36bc0a4 ""
-  "figs/bridgecap.png" 1667450425 17886053 881160c8a50562f63687ccdf8d9e99cc ""
+  "figs/cap.png" 1667974584 84514 1438ac38a804db43489c9ba36cee6325 ""
   "figs/circuit.png" 1667450461 4079189 c12dcd7c89a3d9b4d19ff976574e05db ""
+  "figs/dc.png" 1667974612 121051 e24ea80b4de543024732f8bd097e3139 ""
   "figs/output.png" 1667450513 18659773 f5c93ef1af0a4a2e33bbcf2bfa17f433 ""
-  "figs/transformer.png" 1667450560 18297700 a4d360979832522e23aa00fd3163fae7 ""
-  "main.aux" 1667453167 662 68967c453240d15786404701206742ab "pdflatex"
-  "main.tex" 1667453165 1841 bfaed27aa63623b267bb22da7f4d82a1 ""
+  "figs/rect.png" 1667974531 108128 a1d8b89357b59447b22160e512c9bebb ""
+  "figs/trans.png" 1667974508 96724 344b2666b9c6cf2100af5419b629b07d ""
+  "main.aux" 1667975095 927 9f3d204ca59a308c5a478b4f2cd0ef29 "pdflatex"
+  "main.tex" 1667975094 2038 b8eaf185242416b2852da4392897b809 ""
   (generated)
   "main.aux"
   "main.log"
